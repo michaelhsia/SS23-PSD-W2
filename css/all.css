@@ -1,0 +1,47 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: "Bruno Ace", cursive;
+}
+
+.bg-black{
+    background: #000000;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li{
+    max-width: 306px;
+}
+
+.nav .mw-196{
+    max-width: 196px;
+}
+
+.nav li a{
+    display: block;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color: #00FFA3;
+}
