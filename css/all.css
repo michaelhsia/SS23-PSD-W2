@@ -7,7 +7,9 @@ img{
 }
 
 body{
-    font-family: "Bruno Ace", cursive;
+    font-family: "Bruno Ace SC", cursive;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .bg-black{
@@ -19,7 +21,7 @@ body{
 }
 
 .container{
-    max-width: 1296px;
+    width: 1296px;
     margin: 0 auto;
 }
 
@@ -44,4 +46,63 @@ body{
 
 .nav li a:hover{
     color: #00FFA3;
+}
+
+.p-72{
+    padding: 72px 0;
+}
+
+.banner-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white-font{
+    color: #ffffff;
+}
+.green-font{
+    color: #00FFA3;
+}
+.fz-64{
+    font-size: 64px;
+}
+
+.fz-128{
+    font-size: 128px;
+}
+
+.tar{
+    text-align: right;
+}
+
+.btn-wt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    background: #ffffff;
+    margin-left: auto;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.contact-me{
+    color: #000000;
+    text-decoration: none;
+}
+
+.pd-12{
+    padding: 12px 0;
+}
+
+.btn-wt:hover{
+    background-color: #00FFA3;
+    opacity: 0.9;
 }
