@@ -197,7 +197,10 @@ body{
     justify-content: space-between;
 }
 
-.social-icon li img{
-    width: 162px;
-    height: 162px;
+.social-icon li a{
+    filter:drop-shadow(4px 4px 8px #00000014);
+}
+
+.social-icon li a img:hover{
+    filter:drop-shadow(0px 0px 16px #9094FFE5);
 }
