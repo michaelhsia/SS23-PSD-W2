@@ -93,7 +93,7 @@ body{
     cursor: pointer;
 }
 
-.contact-me{
+.contact-me-btn{
     color: #000000;
     text-decoration: none;
 }
@@ -170,4 +170,34 @@ body{
 
 .pd-16{
     padding: 16px;
+}
+
+.contact-me{
+    background: linear-gradient(#050014,#01021EE3);
+}
+
+.pd-96{
+    padding: 96px 0;
+}
+.contact-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-txt{
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon{
+    width: 41%;  
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon li img{
+    width: 162px;
+    height: 162px;
 }
