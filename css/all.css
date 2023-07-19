@@ -16,6 +16,42 @@ body{
     background: #000000;
 }
 
+.d-f{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wt-ft{
+    color: #ffffff;
+}
+
+.gr-ft{
+    color: #00FFA3;
+}
+
+.fz-24{
+    font-size: 24px;
+}
+
+.fz-64{
+    font-size: 64px;
+}
+
+.fz-128{
+    font-size: 128px;
+}
+
+.pd-12{
+    padding: 12px 0;
+}
+
+.pd-160{
+    padding: 160px 0;
+}
+
+
+/* header */
+
 .pt-40{
     padding-top: 40px;
 }
@@ -25,17 +61,12 @@ body{
     margin: 0 auto;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-
 .nav li{
-    max-width: 306px;
+    width: 23.6%;
 }
 
-.nav .mw-196{
-    max-width: 196px;
+.nav .w-15{
+    width: 15.12%;
 }
 
 .nav li a{
@@ -48,34 +79,17 @@ body{
     color: #00FFA3;
 }
 
-.p-72{
-    padding: 72px 0;
-}
 
-.banner-flex{
-    display: flex;
-    justify-content: space-between;
+/* banner */
+
+.pd-72{
+    padding: 72px 0;
 }
 
 .title{
     width: 49%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.white-font{
-    color: #ffffff;
-}
-.green-font{
-    color: #00FFA3;
-}
-.fz-64{
-    font-size: 64px;
-}
-
-.fz-128{
-    font-size: 128px;
 }
 
 .tar{
@@ -83,23 +97,17 @@ body{
 }
 
 .btn-wt{
-    display: flex;
+    width: 29.08%;
     justify-content: center;
     align-items: center;
-    width: 185px;
     background: #ffffff;
     margin-left: auto;
     border-radius: 32px;
-    cursor: pointer;
 }
 
-.contact-me-btn{
+.btn-wt{
     color: #000000;
     text-decoration: none;
-}
-
-.pd-12{
-    padding: 12px 0;
 }
 
 .btn-wt:hover{
@@ -107,22 +115,18 @@ body{
     opacity: 0.9;
 }
 
+
+/* intro */
+
 .intro{
     background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
     background-size: cover;
-}
-.intro-outer{
-    display: flex;
-    justify-content: space-between;
-}
-
-.pd-160{
-    padding: 160px 0;
 }
 
 .intro-ct{
     width: 41%;
 }
+
 .mb-36{
     margin-bottom: 36px;
 }
@@ -131,15 +135,12 @@ body{
     margin-bottom: 32px;
 }
 
-.fz-24{
-    font-size: 24px;
-}
-
 .intro-img{
     width: 58%;
-    display: flex;
-    justify-content: space-between;
 }
+
+
+/* about */
 
 .about{
     display: flex;
@@ -251,9 +252,7 @@ body{
     border-radius: 32px;
     cursor: pointer;
 }
-.pd-12{
-    padding: 12px 0;
-}
+
 .sm-btn{
     color: #ffffff;
     text-decoration: none;
