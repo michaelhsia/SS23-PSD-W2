@@ -12,7 +12,7 @@ body{
     line-height: 1.5;
 }
 
-.bg-black{
+.bg-bl{
     background: #000000;
 }
 
@@ -41,12 +41,24 @@ body{
     font-size: 128px;
 }
 
-.pd-12{
+.pd-y-12{
     padding: 12px 0;
 }
 
-.pd-160{
+.pd-y-160{
     padding: 160px 0;
+}
+
+.mb-36{
+    margin-bottom: 36px;
+}
+
+.btn{
+    width: 29.08%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 32px; 
 }
 
 
@@ -65,7 +77,7 @@ body{
     width: 23.6%;
 }
 
-.nav .w-15{
+.nav li:last-child{
     width: 15.12%;
 }
 
@@ -82,7 +94,7 @@ body{
 
 /* banner */
 
-.pd-72{
+.pd-y-72{
     padding: 72px 0;
 }
 
@@ -97,17 +109,9 @@ body{
 }
 
 .btn-wt{
-    width: 29.08%;
-    justify-content: center;
-    align-items: center;
+    color: #000000;
     background: #ffffff;
     margin-left: auto;
-    border-radius: 32px;
-}
-
-.btn-wt{
-    color: #000000;
-    text-decoration: none;
 }
 
 .btn-wt:hover{
@@ -120,6 +124,7 @@ body{
 
 .intro{
     background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+    /* 自適應調整圖片 */
     background-size: cover;
 }
 
@@ -127,12 +132,12 @@ body{
     width: 41%;
 }
 
-.mb-36{
-    margin-bottom: 36px;
-}
-
 .mb-32{
     margin-bottom: 32px;
+}
+
+.sm-sparkle{
+    width: 24.3%;
 }
 
 .intro-img{
@@ -143,15 +148,11 @@ body{
 /* about */
 
 .about{
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .card{
     width: 49%;
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -159,7 +160,7 @@ body{
     width: 48%;
     border: 1px solid #E3E3E3;
     margin-bottom: 24px;
-
+    padding: 16px;
 }
 
 .fz-20{
@@ -174,33 +175,24 @@ body{
     width: 41%;
 }
 
-.pd-16{
-    padding: 16px;
-}
+
+/* contact */
 
 .contact-me{
     background: linear-gradient(#050014,#01021EE3);
 }
 
-.pd-96{
+.pd-y-96{
     padding: 96px 0;
-}
-.contact-inner{
-    display: flex;
-    justify-content: space-between;
 }
 
 .contact-txt{
     width: 51%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .social-icon{
-    width: 41%;  
-    display: flex;
-    justify-content: space-between;
+    width: 41%;
 }
 
 .social-icon li a{
@@ -211,64 +203,42 @@ body{
     filter:drop-shadow(0px 0px 16px #9094FFE5);
 }
 
+
+/* project */
+
 .project h2{
     width: 58%;
-    margin-left: auto; 
-}
-
-.mb-16{
+    margin-left: auto;
     margin-bottom: 16px;
 }
 
-.project-img{
-    display: flex;
-    justify-content: space-between;
-}
-
-.project-right{
+.project-r{
     width: 66%;
 }
 
-.project-right-top{
-    display: flex;
-    justify-content: space-between;
+.project-r-t{
     margin-bottom: 28px;
 }
 
 .project-txt{
     width: 74%;
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .btn-bl{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 185px;
-    margin-right: auto;
-    background: #000000;
-    border-radius: 32px;
-    cursor: pointer;
-}
-
-.sm-btn{
     color: #ffffff;
-    text-decoration: none;
+    background: #000000;
+    margin-right: auto;
 }
 
 .btn-bl:hover{
     background-color: #dfdfdf;
 }
 
-.project-right-bottom{
-    display: flex;
-    justify-content: space-between;
-}
+
+/* footer */
 
 .footer{
-    background: #000;
     padding: 40px 0;
     text-align: center;
 }
