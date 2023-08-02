@@ -8,7 +8,7 @@ img{
 
 body{
     font-family: "Bruno Ace SC", cursive;
-    font-size: 16px;
+    /* font-size: 16px; 瀏覽器預設為16px不用額外設置 */
     line-height: 1.5;
 }
 
@@ -109,6 +109,7 @@ body{
     justify-content: center;
 }
 
+/* 單一元素靠著交錯軸尾部對齊 */
 .se{
     align-self: end;
 }
@@ -161,9 +162,10 @@ body{
 }
 
 .card li{
-    max-width: calc(50% - 12px);
+    max-width: calc(50% - 12px); /* 卡片寬度是父層一半，再減掉gutter的一半24px/2=12px */
     border: 1px solid #E3E3E3;
     padding: 16px;
+    box-shadow: 4px 4px 4px 0 #00000014;
 }
 
 .mb-1{
